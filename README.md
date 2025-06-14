@@ -89,8 +89,7 @@ dotnet run
 
 The app will be available at:
 
-* `http://localhost:5000`
-* `https://localhost:5001`
+* `http://localhost:5220`
 
 ---
 
@@ -98,11 +97,11 @@ The app will be available at:
 
 | Method   | URL                                   | Description       | Body                         |
 | -------- | ------------------------------------- | ----------------- | ---------------------------- |
-| `GET`    | `http://localhost:5000/api/user`      | Fetch all users   | —                            |
-| `GET`    | `http://localhost:5000/api/user/{id}` | Fetch user by ID  | —                            |
-| `POST`   | `http://localhost:5000/api/user`      | Create a user     | `{ "name": "Ralph Maron" }`  |
-| `PUT`    | `http://localhost:5000/api/user/{id}` | Update user by ID | `{ "name": "Updated Name" }` |
-| `DELETE` | `http://localhost:5000/api/user/{id}` | Delete user by ID | —                            |
+| `GET`    | `http://localhost:5220/api/user`      | Fetch all users   | —                            |
+| `GET`    | `http://localhost:5220/api/user/{id}` | Fetch user by ID  | —                            |
+| `POST`   | `http://localhost:5220/api/user`      | Create a user     | `{ "name": "Ralph Maron" }`  |
+| `PUT`    | `http://localhost:5220/api/user/{id}` | Update user by ID | `{ "name": "Updated Name" }` |
+| `DELETE` | `http://localhost:5220/api/user/{id}` | Delete user by ID | —                            |
 
 **Headers to include**:
 `Content-Type: application/json`
